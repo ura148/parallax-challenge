@@ -13,7 +13,7 @@ $(function(){
 
     if(scrollY > scrollYStart1){
       //"="になる時はscrollbottomと背面遅延1のY座標が同じ時、1pxスクロールすれば背面遅延が画面内に入る
-      target1.css('background-position-y', (scrollY - targetPosOT1) * targetFactor + 'px');
+      target1.css('background-position-y', (scrollY - targetPosOT1) + 'px');
       //target1にbgp-yとして（scrollTop-背面遅延1のoffset時のY座標）* 0.5 pxをつける
       //target1にbgp-yとして（scrollTop-背面遅延1のoffset時のY座標）のみをつけると画像が動いていないように見え、次の要素が上から覆いかぶさるように見える
 
