@@ -24,5 +24,5 @@ $(function(){
     }else{
       $target2.css('background-position','center top');
     }
-  }):
+  });
 });
