@@ -1,1 +1,27 @@
 @charset "UTF-8";
+body{
+  margin: 0;
+}
+
+.parallax-box{
+  min-height: 700px;
+  text-align: center;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contents-box{
+  min-height: 350px;
+  text-align: center;
+  padding: 72px;
+  background-color: #fff;
+}
+
+.bgi1{
+  background-image: url(../img/sea.jpg);
+}
+
+.bgi2{
+  background-image: url(../img/forest.jpg);
+}
