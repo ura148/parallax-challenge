@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body,p{
+  margin: 0;
+}
+.container{
+  position: relative;
+}
+
+.background-effect{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5000px
+}
+
+.background-effect__box{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.text-container{
+  position: relative;
+}
+
+
+.bge{
+  width: 385px;
+  padding-top: 30vw;
+  opacity: 0.5;
+}
+
+.contents-img{
+  width: 50%;
+  text-align: center;
+
+}
